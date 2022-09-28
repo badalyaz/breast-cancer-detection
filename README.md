@@ -9,7 +9,7 @@ Our goal is to create a model that will be able to detect breast cancer from X-r
 ## Sample test
 
 - There is a folder named Sample_data, where are 19 sample images.
-    -There is a folder named generated_heatmaps, where are generated and saved heatmaps for 316 images.
+- There is a folder named generated_heatmaps, where are generated and saved heatmaps for 316 images.
 
 
 In folder Notebook there are jupyter notebook files containing visualizations and evaluations
