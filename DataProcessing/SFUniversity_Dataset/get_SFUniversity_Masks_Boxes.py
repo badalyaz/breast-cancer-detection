@@ -201,29 +201,13 @@ def get_all_overlays(sfu_path):
 
         if (result_dict[filename]["Has_Overlay"]):
             ##Changing LJPEG with OVERLAY in path
-            # print(path)
             path = path.replace("LJPEG","OVERLAY")
             result_dict[filename].update(get_overlay_annots(path))
 
     return result_dict
 
-
-def main():
-    import pickle
-
-    ### Get all the annotations and save the result dict into a dict.pickle file
-    with open('/home/server/other_projects/breast_cancer/DATA_PATH/Data/SFUniversity/Annotations.pickle', 'wb') as handle:
-        pickle.dump(get_all_overlays("/home/server/other_projects/breast_cancer/DATA_PATH/Data/SFUniversity"),
-                    handle, protocol=pickle.HIGHEST_PROTOCOL)
-
-    ### An example of reading the dict.pickle file
-    with open('/home/server/other_projects/breast_cancer/DATA_PATH/Data/SFUniversity/Annotations.pickle', 'rb') as handle:
-        res = pickle.load(handle)
-
-    # import rich
-    # rich.print(res[list(res.keys())[0]])
-    
-    
+def example_usage(res):
+        
     import matplotlib.pyplot as plt
     import matplotlib.patches as patches
 
@@ -255,9 +239,24 @@ def main():
                     ax.plot(mask[0],mask[1],color="y")
             print(f"{img_ind+1}) on image {key}.png")
             img_ind+=1
-    plt.savefig("/home/server/other_projects/breast_cancer/breast_cancer_gitlab/DataProcessing/SFUniversity_Dataset/test.png")
+    plt.savefig("./test.png")
+
+
+def main():
+    import pickle
+    root = "/path-to-your-dataset/SFUniversity"
+    ### Get all the annotations and save the result dict into a dict.pickle file
+    with open(root + '/Annotations.pickle', 'wb') as handle:
+        pickle.dump(get_all_overlays(root),
+                    handle, protocol=pickle.HIGHEST_PROTOCOL)
+
+    ### An example of reading the dict.pickle file
+    with open(root + '/Annotations.pickle', 'rb') as handle:
+        res = pickle.load(handle)
+    
+    example_usage(res)
+
 
 
 if __name__ == '__main__':
     main()
-    
