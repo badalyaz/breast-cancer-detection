@@ -9,3 +9,4 @@ pandas==1.4.4
 h5py==3.7.0
 opencv-python==4.6.0.66
 pillow==6.2.2
+SimpleITK==2.2.0
