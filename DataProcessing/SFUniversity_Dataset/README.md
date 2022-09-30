@@ -34,17 +34,3 @@ This utility is for converting the old LJPEG images to png.
 - For this you need to just change the paths to the dataset in the get_SFUniversity_Masks_Boxes.py script. `**line247**`
 
 
-## Credits
-Special thanks for DDSMUtility to
-@misc{Anmol2015,
-  author = {Anmol Sharma},
-  title = {DDSM Utility},  
-  year = {2015},  
-  publisher = {GitHub},  
-  journal = {GitHub repository},  
-  howpublished = {\url{https://github.com/trane293/DDSMUtility}},  
-}
-
-
-
-
