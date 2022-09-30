@@ -37,3 +37,9 @@ Processed annotations of the above datasets.
 - [DDSM](https://github.com/badalyaz/cancer_detection/tree/interns_branch/DataProcessing/Annotations/DDSMAnnotations)
 - [InBreast](https://github.com/badalyaz/cancer_detection/tree/interns_branch/DataProcessing/Annotations/INbreastAnnotations)
 - [SFUniversity](https://github.com/badalyaz/cancer_detection/blob/interns_branch/DataProcessing/Annotations/SFUAnnotations.pickle)
+
+## Reference
+
+1. Nan Wu, Jason Phang, Jungkyu Park, Yiqiu Shen, Zhe Huang, Masha Zorin, Stanis\law Jastrzębski, Thibault Févry, Joe Katsnelson, Eric Kim, Stacey Wolfson, Ujas Parikh, Sushma Gaddam, Leng Leng Young Lin, Kara Ho, Joshua D. Weinstein, Beatriu Reig, Yiming Gao, Hildegard Toth, Kristine Pysarenko, Alana Lewin, Jiyon Lee, Krystal Airola, Eralda Mema, Stephanie Chung, Esther Hwang, Naziya Samreen, S. Gene Kim, Laura Heacock, Linda Moy, Kyunghyun Cho, & Krzysztof J. Geras (2019). Deep Neural Networks Improve Radiologists' Performance in Breast Cancer Screening. IEEE Transactions on Medical Imaging.
+
+
