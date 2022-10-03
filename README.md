@@ -8,8 +8,8 @@ We put a small sample of images that one can experiment with.
 
 In folder `Notebook` there are jupyter notebook files containing visualizations and evaluations.
 - There is a file named [Check heatmaps.ipynb](https://github.com/badalyaz/cancer_detection/blob/interns_branch/HeatmapGenerator/Notebooks/Check%20heatmaps.ipynb) in the HeatmapGenerator folder, with which you can check how the Heatmap generator works.
-- [Evaluate threshold results.ipynb](https://gitlab.com/sven.badalyan/breast_cancer_gitlab/-/blob/workers_branch/HeatmapGenerator/Notebooks/Evaluate%20threshold%20results%20with%20bins.ipynb) is the file where we tune thresholds 
-- [Evaluate threshold results with bins.ipynb](https://gitlab.com/sven.badalyan/breast_cancer_gitlab/-/blob/workers_branch/HeatmapGenerator/Notebooks/Evaluate%20threshold%20results%20with%20bins.ipynb) is the file where we tune thresholds using bins
+- [Evaluate threshold results with bins.ipynb](https://github.com/badalyaz/cancer_detection/blob/interns_branch/HeatmapGenerator/Notebooks/Evaluate%20threshold%20results%20with%20bins.ipynb) is the file where we tune thresholds using bins
+- ["Evaluate threshold results with mean.ipynb"](https://github.com/badalyaz/cancer_detection/blob/interns_branch/HeatmapGenerator/Notebooks/Evaluate%20threshold%20results%20with%20mean.ipynb)
 
 There are also files in which one can perform Grid Search in different ways (without bins, with bins, etc.).
 
