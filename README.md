@@ -7,8 +7,7 @@ We put a small sample of images that one can experiment with.
 - In the folder named HeatmapGenerator/Sample_data/`generated_heatmaps`, there are generated and saved heatmaps for 316 images.
 
 In folder `Notebook` there are jupyter notebook files containing visualizations and evaluations.
-- There is a file named [Check heatmaps.ipynb](https://gitlab.com/sven.badalyan/breast_cancer_gitlab/-/blob/workers_branch/HeatmapGenerator/Notebooks/Check%20heatmaps.ipynb) in the HeatmapGenerator folder, with which you can check how the Heatmap generator works.
-- [Threshold results.ipynb](https://gitlab.com/sven.badalyan/breast_cancer_gitlab/-/blob/workers_branch/HeatmapGenerator/Notebooks/Threshold%20results.ipynb) is the file where we tune thresholds for density calculation
+- There is a file named [Check heatmaps.ipynb](https://github.com/badalyaz/cancer_detection/blob/interns_branch/HeatmapGenerator/Notebooks/Check%20heatmaps.ipynb) in the HeatmapGenerator folder, with which you can check how the Heatmap generator works.
 - [Evaluate threshold results.ipynb](https://gitlab.com/sven.badalyan/breast_cancer_gitlab/-/blob/workers_branch/HeatmapGenerator/Notebooks/Evaluate%20threshold%20results%20with%20bins.ipynb) is the file where we tune thresholds 
 - [Evaluate threshold results with bins.ipynb](https://gitlab.com/sven.badalyan/breast_cancer_gitlab/-/blob/workers_branch/HeatmapGenerator/Notebooks/Evaluate%20threshold%20results%20with%20bins.ipynb) is the file where we tune thresholds using bins
 
